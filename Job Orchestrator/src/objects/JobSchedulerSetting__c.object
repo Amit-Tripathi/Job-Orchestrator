@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Admin_Email__c</fullName>
+        <description>Address to which mail  will be sent in case of any errors.</description>
+        <externalId>false</externalId>
+        <label>Admin Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days__c</fullName>
+        <defaultValue>7</defaultValue>
+        <description>Purge All the logs Earlier to # of days.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Purge All the logs Earlier to # of days. Should be in Days.</inlineHelpText>
+        <label>Purge Logs Earlier Than</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Frequency__c</fullName>
+        <defaultValue>5</defaultValue>
+        <description>Frequency in Minutes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be Integer Only</inlineHelpText>
+        <label>Frequency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>JobSchedulerSetting</label>
+</CustomObject>

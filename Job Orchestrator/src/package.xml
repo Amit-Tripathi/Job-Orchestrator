@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch Orchestration</fullName>
+    <description>It is being developed to meet below objectives:
+1. Overcome SFDC Batch Limit
+2. Enable Monitoring of all Batch Activity on the SFDC platform
+3. Enable Administration of all Batch Activity on the SFDC platform</description>
+    <types>
+        <members>BatchManagerLogTriggerHandler</members>
+        <members>JobScheduler</members>
+        <members>JobSchedulerManager</members>
+        <members>JobSchedulerTriggerHandler</members>
+        <members>SchedulerManagerUtil</members>
+        <members>TestBatchClass</members>
+        <members>TestJobScheduler</members>
+        <members>TestScheduleClass</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>BatchManagerLogTrigger</members>
+        <members>JobSchedulerTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>BatchManager_Log__c.Completion_Date__c</members>
+        <members>BatchManager_Log__c.Error__c</members>
+        <members>BatchManager_Log__c.Job__c</members>
+        <members>BatchManager_Log__c.Status__c</members>
+        <members>BatchManager_Log__c.Trigger_Job_Id__c</members>
+        <members>JobSchedulerSetting__c.Admin_Email__c</members>
+        <members>JobSchedulerSetting__c.Days__c</members>
+        <members>JobSchedulerSetting__c.Frequency__c</members>
+        <members>Job_Detail__c.Active__c</members>
+        <members>Job_Detail__c.Apex_Class__c</members>
+        <members>Job_Detail__c.Last_Run__c</members>
+        <members>Job_Detail__c.Next_Run__c</members>
+        <members>Job_Detail__c.Priority__c</members>
+        <members>Job_Detail__c.Recurrence_Number__c</members>
+        <members>Job_Detail__c.Recurrence_Unit__c</members>
+        <members>Job_Detail__c.Scope_Size__c</members>
+        <members>Job_Scheduler_Log__c.Description_of_Error__c</members>
+        <members>Job_Scheduler_Log__c.Job_Id__c</members>
+        <members>Job_Scheduler_Log__c.Run_Time__c</members>
+        <members>Job_Scheduler_Log__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>BatchManager_Log__c</members>
+        <members>JobSchedulerSetting__c</members>
+        <members>Job_Detail__c</members>
+        <members>Job_Scheduler_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Batch_Orchestration</members>
+        <members>Batch_Orchestration/Batch_Orchestration_v1_0.docx</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>BatchManager_Log__c-BatchManager Log Layout</members>
+        <members>Job_Detail__c-Job Detail Layout</members>
+        <members>Job_Scheduler_Log__c-Job Scheduler Log Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>BatchManager_Log__c.All</members>
+        <members>Job_Detail__c.All</members>
+        <members>Job_Scheduler_Log__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>28.0</version>
+</Package>
